@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace Id-card</title>
+<style>
+
+    .center {
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+  <h2  style="text-align:center;"><u>Workspace Room Id Card- proposal:</u></h2>
+  <br>
+  <div>
+<table class="center" border="2" style="border-color: black;  width: 30%; height: 50%;">
+<!-- Main heading -->
+    <tr >
+        <th colspan="4" style="background-color:rgb(31, 194, 194);font-size:25px; "> <strong>ROOM INFORMATION</strong> </th>
+    </tr>
+
+
+    <!-- info of room -->
+   <tr>
+    <td>Building <br><p>  #132001</p></td>
+    <td>Room <br><p> 256</p></td>
+    <td>Finance <br><p> The department controls the income and expenditure </p> </td>
+    <td>Date Printed<br> 
+        <br>
+        <input type="date" id="start" name="trip-start"
+        value="2018-07-22"
+        min="1900-01-01" max="2022-12-31">
+    </td>
+   </tr>
+
+   <!-- Manager info -->
+   <tr style="padding:10px">
+    <td colspan="3"><strong>Manager(s)</strong> RamshankarNarayana 
+        <br>
+    Supervisor1:Shivam sharma,
+    <span>
+        Supervisor2:Narayana murthi,
+    </span>
+    
+    <span>
+        Supervisor3:Shivam padikal
+    </span>
+    </td>
+    <td rowspan="7">
+     <strong> Saftey Survey QR CODE</strong>
+     <br>
+     <p>Dozuki Safety Survey QR</p>
+     <br>
+     <img src="data:image/png;base64,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" alt="">
+    </td>
+   </tr>
+
+   <!-- contact info -->
+<tr  >
+<td  colspan="3">
+<strong>Primary Occupant/Contact</strong>
+<br>
+Primary Room Occupant (9829999988)
+</td>
+</tr>
+<tr>
+    <td colspan="3"> <strong>Additional Occupant(s)/Contact(s)</strong></td>
+</tr>
+<tr>
+    <td colspan="3"> Room Occupant 1 (9813533889)</td>
+</tr>
+<tr>
+    <td colspan="3"> Room Occupant 2 (9233533889)</td>
+</tr>
+<tr>
+    <td colspan="3"> Room Occupant 3 (7813533889)</td>
+</tr>
+<tr>
+    <td colspan="3"> Room Occupant 4 (9813893889)</td>
+</tr>
+<!-- Emergency dial -->
+<tr>
+   <th colspan="4" style="background-color:rgb(31, 194, 194); font-size: 25px;"> <strong> EMERGENCY-DIAL 123-456-789 </strong> </th>
+</tr>
+</table>
+
+  </div>
+</body>
+</html>
